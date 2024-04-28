@@ -252,7 +252,7 @@ with tabs[3]:
     elif market_choice == "Both":
         # Load the data for both markets
         us_data = fetch_data('us_market_analysis.csv')
-        china_data = fetch_data('china_market_analysis.csv')
+        china_data = fetch_data('China_market_analysis.csv')
 
         # Combine the dataframes and differentiate by market
         us_data['market'] = 'US'
@@ -321,7 +321,7 @@ with tabs[3]:
                  """)
         
         us_audio_data = pd.read_csv('us_market_analysis.csv')
-        china_audio_data = pd.read_csv('china_market_analysis.csv')
+        china_audio_data = pd.read_csv('China_market_analysis.csv')
         # Calculate the average of each audio feature for both markets
         us_averages = us_audio_data[audio_features].mean()
         china_averages = china_audio_data[audio_features].mean()
