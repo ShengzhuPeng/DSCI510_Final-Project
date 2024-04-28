@@ -1,2 +1,9 @@
 matplotlib
 seaborn
+dotenv
+requests
+pandas
+streamlit
+bs4
+selenium
+lxml
